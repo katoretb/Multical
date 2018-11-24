@@ -4,7 +4,7 @@ while True:
     print('\x1b[1;31;40m' + '2.' + '\x1b[0m' + '\x1b[1;32;40m' + 'Find another side' + '\x1b[0m')
     print('\x1b[1;31;40m' + '3.' + '\x1b[0m' + '\x1b[1;32;40m' + 'Find root' + '\x1b[0m')
     print('\x1b[1;31;40m' + '4.' + '\x1b[0m' + '\x1b[1;32;40m' + 'Area finder' + '\x1b[0m')
-    g = input('\x1b[1;31;40m' + '4.' + '\x1b[0m' + '\x1b[1;32;40m' + 'Please choose' + '\x1b[0m' + '>')
+    g = input('\x1b[1;32;40m' + 'Please choose' + '\x1b[0m' + '>')
     if g > 4:
         continue
     elif g == 1:
